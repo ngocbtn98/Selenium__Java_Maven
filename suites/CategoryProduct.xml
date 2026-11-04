@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- BT5 + BT6: chạy multi class / chọn method cụ thể. mvn clean test -DsuiteXmlFile=suites/CategoryProduct.xml -->
+<suite name="Category and Product" verbose="1">
+    <test name="Category">
+        <classes>
+            <class name="com.anhtester.testcases.CategoryTest">
+                <methods>
+                    <include name="testAddCategory"/>
+                    <include name="testEditCategory"/>
+                    <include name="testDeleteCategory"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Product">
+        <classes>
+            <class name="com.anhtester.testcases.ProductTest">
+                <methods>
+                    <include name="testAddProduct"/>
+                    <include name="testEditProduct"/>
+                    <include name="testAddCategoryThenProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

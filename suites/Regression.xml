@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Suite mặc định: mvn clean test -->
+<suite name="Regression eCommerce CMS" verbose="1">
+    <test name="Regression - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.anhtester.testcases.LoginTest"/>
+            <class name="com.anhtester.testcases.CategoryTest"/>
+            <class name="com.anhtester.testcases.ProductTest"/>
+            <class name="com.anhtester.testcases.BrandTest"/>
+        </classes>
+    </test>
+</suite>

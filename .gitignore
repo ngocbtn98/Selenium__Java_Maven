@@ -15,3 +15,10 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Kết quả chạy test (BT12 -> BT16)
+exports/
+logs/
+allure-results/
+allure-report/
+test-output/
