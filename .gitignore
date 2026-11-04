@@ -15,3 +15,8 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Output khi chạy test (screenshot, video, log, report)
+exports/
+allure-results/
+test-output/

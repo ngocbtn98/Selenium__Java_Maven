@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BT2 - BT4 Suite">
+    <test name="BT2 Add Category TestNG">
+        <classes>
+            <class name="ecommerce_basic.BT2_AddCategoryTestNG"/>
+        </classes>
+    </test>
+    <test name="BT3 Category Assert - Add Edit Delete">
+        <classes>
+            <class name="ecommerce_basic.BT3_CategoryAssert"/>
+        </classes>
+    </test>
+    <test name="BT4 Add Product Actions Robot">
+        <classes>
+            <class name="ecommerce_basic.BT4_AddProductActionsRobot"/>
+        </classes>
+    </test>
+</suite>
