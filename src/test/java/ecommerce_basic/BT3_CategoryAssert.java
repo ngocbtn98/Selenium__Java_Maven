@@ -11,7 +11,7 @@ import static ecommerce_basic.LocatorsCMS.*;
 /**
  * BÀI TẬP 3 + 3 MỞ RỘNG: Assert cho Add Category, thêm case Edit và Delete.
  */
-public class BT3_CategoryAssert extends BT2_AddCategoryTestNG {
+public class BT3_CategoryAssert extends BT2_BaseSetup {
 
     private void addCategoryWithAssert(String categoryName) {
         openCategoryPage();

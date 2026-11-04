@@ -19,7 +19,7 @@ import static ecommerce_basic.LocatorsCMS.*;
  * BÀI TẬP 4: Actions + Robot class - Add Product.
  * BÀI TẬP 4 MỞ RỘNG: Luồng liên tục Add Category -> Add Product (dùng lại category vừa add).
  */
-public class BT4_AddProductActionsRobot extends BT2_AddCategoryTestNG {
+public class BT4_AddProductActionsRobot extends BT2_BaseSetup {
 
     // Biến toàn cục lưu data để dễ chỉnh sửa khi chạy lại
     public static String CATEGORY_NAME = "Category BT4 " + System.currentTimeMillis();
