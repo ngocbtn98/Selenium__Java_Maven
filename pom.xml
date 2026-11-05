@@ -20,6 +20,7 @@
         <extentreports.version>5.1.1</extentreports.version>
         <allure.version>2.27.0</allure.version>
         <aspectj.version>1.9.22</aspectj.version>
+        <appium.version>9.4.0</appium.version>
         <!-- Suite mặc định khi chạy: mvn clean test -->
         <suiteXmlFile>suites/Regression.xml</suiteXmlFile>
     </properties>
@@ -35,6 +36,13 @@
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.17.2</version>
+        </dependency>
+
+        <!-- Appium Java Client - Mobile Android (AOS) -->
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${appium.version}</version>
         </dependency>
 
         <!-- TestNG (BT2 trở đi) -->

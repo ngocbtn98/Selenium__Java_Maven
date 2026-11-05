@@ -22,3 +22,6 @@ logs/
 allure-results/
 allure-report/
 test-output/
+
+# APK (tải về khi chạy mobile test)
+*.apk
